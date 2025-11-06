@@ -1,0 +1,22 @@
+name: discord_login_clone
+description: A Flutter UI clone of Discord login screen (visual only).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo/discord_logo.png
+    - assets/background/blur_blob.png
